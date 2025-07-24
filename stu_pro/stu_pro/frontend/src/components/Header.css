@@ -1,0 +1,30 @@
+/* Header.css */
+.header {
+    background-color: #2e84e7;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .header-left i {
+    font-size: 20px;
+  }
+  
+  .header-right {
+    font-size: 14px;
+  }
+  
+  .header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f7fc;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: row;
+  width: 850px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.login-image {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #0a315e, #083167);
+}
+
+.login-image img {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.login-form {
+  width: 50%;
+  padding: 40px;
+  text-align: center;
+}
+
+.login-form h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  background: #e0e0e0;
+  border-radius: 8px;
+  margin: 0 5px;
+  transition: all 0.3s;
+}
+
+.tabs button.active {
+  background: #092f61;
+  color: white;
+  font-weight: bold;
+  transform: scale(1.05);
+}
+
+/* Input Fields */
+.input-group {
+  display: flex;
+  align-items: center;
+  background: #f1f3f6;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 10px 0;
+  transition: 0.3s;
+}
+
+.input-group input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 16px;
+  flex: 1;
+  padding-left: 10px;
+}
+
+.input-group i {
+  color: #666;
+  margin-right: 10px;
+}
+
+/* Remember Me */
+.remember-me {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.remember-me input {
+  margin-right: 10px;
+}
+
+/* Login Button */
+.btn-login {
+  width: 100%;
+  padding: 12px;
+  background: #093165;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-login:hover {
+  background: #0a295f;
+  transform: translateY(-2px);
+}
+
+/* Create Account Link */
+.create-account {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-top: 15px;
+}
+
+.create-account a {
+  color: #08264d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.create-account a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .login-image {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .login-form {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .tabs {
+    flex-direction: column;
+  }
+
+  .tabs button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

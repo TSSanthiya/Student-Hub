@@ -1,0 +1,92 @@
+/* Home Page Banner */
+.banner {
+  width: 100%;
+  height: 250px; /* Adjusted height for better visibility */
+  margin-top: 1px; /* Space below the navbar */
+  margin-bottom: 10px; /* Space before the next section */
+   /* Ensures the image covers the entire area without distortion */
+ /* Ensures the image fills the area properly */
+  display: block;
+}
+
+
+
+/* View Departments Button */
+.department-button-container {
+  text-align: center;
+  margin: 2px 0;
+}
+
+.view-departments-btn {
+  background: rgb(6, 36, 70);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.view-departments-btn:hover {
+  background: rgb(10, 39, 107);
+}
+
+/* Departments Section */
+.departments {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.line {
+  width: 80px;
+  height: 4px;
+  background-color: rgb(13, 52, 103);
+  margin: auto;
+}
+
+.department-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  justify-items: center;
+}
+
+.department-card {
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  transition: 0.3s ease-in-out;
+  width: 280px;
+}
+
+.department-card:hover {
+  transform: translateY(-5px);
+}
+
+.department-card img {
+  width: 100%;
+  height: 180px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.department-card h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.view-more {
+  display: block;
+  color: rgb(17, 49, 108);
+  font-weight: bold;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.view-more:hover {
+  text-decoration: underline;
+}

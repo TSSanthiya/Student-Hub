@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #0073e6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background: pink;
+    padding: 10px;
+  }
+  
+  .navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+  }
+  
+  .banner {
+    width: 100%;
+    height: auto;
+  }
+  
+  .buttons {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .btn {
+    background: #a83232;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
